@@ -1,0 +1,9 @@
+footer {
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #1abc9c;
+    color: rgb(170, 26, 26);
+    text-align: center;
+}

@@ -1,7 +1,17 @@
-@import "./main.css";
+
+/* post.css */
+
+/* Importing other CSS files */
+@import './header.css';
+@import './footer.css';
+@import './responsive.css';
+/* Additional styles for the portfolio */
+/* ... */
+
 
 .post-container {
     position: relative;
+    margin: 10px;
 }
 
 .post a {
@@ -19,7 +29,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+}
+
+.blog-date {
+    color: #55ACEE;
+}
+
+.title-post {
+    color: #dd4b39;
 }
 
 .button {
@@ -52,7 +69,7 @@
 }
 
 .author-container {
-    margin-bottom: 20px;
+    margin: 10px;
 }
 
 .author-section {
@@ -78,4 +95,46 @@
     max-width: 80px;
     height: auto;
     justify-content: flex-start; 
+}
+
+.social-sharing {
+    float: right;
+    margin-right: 10px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
